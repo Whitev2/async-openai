@@ -14,8 +14,8 @@ from typing import (
 
 from aiohttp import BasicAuth, ClientSession, TCPConnector
 
-from async_openai.base.model import Model
-from async_openai.base.session import BaseSession
+from ai_openchat.model import Model
+from ai_openchat.session import BaseSession
 
 _ProxyBasic = Union[str, Tuple[str, BasicAuth]]
 _ProxyChain = Iterable[_ProxyBasic]

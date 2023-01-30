@@ -1,7 +1,7 @@
 import abc
 from typing import Final
 
-from async_openai.base.openai import OpenAiAPIServer, PRODUCTION
+from ai_openchat.base_openai import OpenAiAPIServer, PRODUCTION
 
 DEFAULT_TIMEOUT: Final[float] = 60.0
 

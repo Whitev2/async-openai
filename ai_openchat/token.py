@@ -4,10 +4,11 @@ from functools import lru_cache
 class TokenValidationError(Exception):
     pass
 
+
 @lru_cache()
 def validate_token(token: str) -> bool:
     """
-    Validate Telegram token
+    Validate openAI token
 
     :param token:
     :return:

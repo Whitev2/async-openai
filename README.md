@@ -15,8 +15,7 @@
 ``` python
 import asyncio
 
-from async_openai import AsyncOpenAI
-from async_openai.base.model import Model
+from ai_openchat import Model, AsyncOpenAI
 
 
 async def chat():
@@ -33,8 +32,7 @@ if __name__ == '__main__':
 ``` python
 import asyncio
 
-from async_openai import AsyncOpenAI
-from async_openai.base.model import Model
+from ai_openchat import Model, AsyncOpenAI
 
 
 async def movie_to_emoji():

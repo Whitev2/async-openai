@@ -1,10 +1,10 @@
 import json
 from typing import Optional
 
-from async_openai.aiiohttp import AiohttpSession
-from async_openai.base.model import Model
-from async_openai.base.session import BaseSession
-from async_openai.utils.token import validate_token
+from .aiiohttp import AiohttpSession
+from .model import Model
+from .session import BaseSession
+from .token import validate_token
 
 
 class AsyncOpenAI:
@@ -35,4 +35,3 @@ class AsyncOpenAI:
                 return await resp.json()
         finally:
             await session.close()
-
