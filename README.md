@@ -38,7 +38,7 @@ from async_openai.base.model import Model
 
 
 async def chat():
-    openai_client = AsyncOpenAI(token='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')
+    openai_client = AsyncOpenAI(token='API-KEY')
     resp = await openai_client.send_message('Convert movie titles into emoji.\n\n'
                                             'Back to the Future: 👨👴🚗🕒 \n'
                                             'Batman: 🤵🦇 \n'
