@@ -58,7 +58,7 @@ import asyncio
 from ai_openchat import Model, AsyncOpenAI
 
 
-async def image_generator():
+async def custom_chat():
     
     custom_model = Model(
         model="code-davinci-002",
