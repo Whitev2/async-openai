@@ -76,7 +76,7 @@ async def custom_chat():
 
 
 if __name__ == '__main__':
-    asyncio.run(image_generator())
+    asyncio.run(custom_chat())
 ```
 
 ## Image
