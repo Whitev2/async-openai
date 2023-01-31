@@ -9,7 +9,7 @@ from setuptools import setup
 :copyright: (c) 2023 Whitev2
 """
 
-version = '1.1.7'
+version = '1.1.8'
 
 with open('README.md', encoding='utf-8') as f:
     long_description = f.read()
@@ -28,7 +28,7 @@ setup(
     long_description_content_type='text/markdown',
 
     url='https://github.com/Whitev2/async-openai',
-    download_url='https://github.com/Whitev2/async-openai/archive/v{}/main.zip'.format(version),
+    download_url='https://github.com/Whitev2/async-openai/archive/refs/tags/v.{}.zip'.format(version),
 
     license='MIT License, see LICENSE file',
 
@@ -36,7 +36,6 @@ setup(
     install_requires=['aiohttp>=3.8.3'],
 
     classifiers=[
-        'License :: OSI Approved :: Apache Software License',
         'Operating System :: OS Independent',
         'Intended Audience :: End Users/Desktop',
         'Intended Audience :: Developers',
